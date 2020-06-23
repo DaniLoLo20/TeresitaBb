@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>02 Tarea</title>
+       <script>
+       	//nos permite cambiar el texto por medio de comparaciones ejemplos como ciclos
+        function cambiarTextos() {
+            texto.innerHTML=texto.innerHTML=="Tarea02 Con Java Scrip"?"Daniel Antonio Lopez Jimenez":"Tarea02 Con Java Scrip";
+        }
+        </script>
+    </head>
+    <body>
+    	<!--Barra para regresar al inicio -->
+    	<nav>
+		<ul>
+			<li><a href="index.html" title="">Inicio</a></li>
+		</ul>
+	</nav>
+		<!--Asignacion de Id para que el Cambair texto actue sobre el 2 -->
+        <p><h1 id="texto">Tarea02 Con Java Scrip</h1></p>
+        <input id="cambiar" onclick="cambiarTextos()" type="button" value="Ira tocame"> 
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01_TareaJS</title>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="">Inicio</a></li>
+		</ul>
+	</nav>
+	<script >
+		var mensaje =" autonomo: ";
+		var destacado = "Destacado: ",
+		satisfactorio = "Satisfactorio";
+		var noAcreditado = "No Acreditado : ";
+		
+
+		do{
+			var cadena = prompt("Bienvenido ingresa tu calificaion obtenida");
+			if (mensaje >= 9.5 && mensaje <= 10)
+			{
+				mensaje = mensaje + cadena;
+			}
+			else if (destacado >= 8.5 && destacado <= 9.4)
+			{
+				mensaje = destacado + "*" + cadena;
+			}
+			else  (satisfactorio >= 7.5 && satisfactorio <= 8.4)
+			{
+				mensaje = satisfactorio + "*" + cadena;
+			}
+			
+			
+
+
+
+
+		}
+		while (confirm("Desea seguir escibiendo? "));
+		document.write(mensaje);
+
+
+	</script>
+	
+	
+</body>
+</html>
