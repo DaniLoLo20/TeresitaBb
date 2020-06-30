@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tarea 4</title>
+</head>
+<body>
+	<nav>
+                <ul>
+                        <li><a href="index.html" title="">Inicio</a></li>
+                </ul>
+        </nav>
+	<script>
+		//Definimos las variables
+		//Suma nos permitira mantener un contador en 0 para despues usarlo
+			var suma = 0;
+			//Esta variable nos permitira ingresar el pirmer numero
+    		var n2 = parseInt(prompt("Dime un numero"));
+    		//Se crea la estructura ciclica para que nos realice la suma de los numeros escritos acumulados
+		do{
+			//
+			suma+=n2;
+			//variable que nos permite ingrear el segundo numero 
+			var n2 =parseInt(prompt("Ingres el segundo numero SI DESEA SALIR COLOQUE 0"));
+			
+
+		}
+		//Terminacion de nuestro mientras
+    	while(n2>0);
+    	//Alerta de que vamos a salir.
+    	alert("Estamos a punto de salir");
+    	document.write("Esta es la suma total: " + suma);
+    	
+    	
+    
+</script>
+	
+</body>
+</html>
